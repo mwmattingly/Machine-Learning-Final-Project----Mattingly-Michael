@@ -1,4 +1,4 @@
 # Machine-Learning-Final-Project----Mattingly-Michael
 Final project for CMSCI 4200
-![Test]("./CorrHeatMap.png")
+<i "./CorrHeatMap.png">
 
