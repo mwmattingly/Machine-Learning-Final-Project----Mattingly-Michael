@@ -40,3 +40,15 @@ We also note a simple non-aggregated view of away team pre game rating is indire
 ### Home team score also seems to decrease slightly during a playoff game
 
 ![](./CorrPlotPlayoffGameHomeGoals.png)
+
+### Prediction strategy
+Based on the initial analysis we can see from the histogram of home_team_score that the target variable (home_team_score) appears to be normally distributed.
+We will apply regression to predict the number of goals the home team will score based on home_team_pregame_rating, away_team_pregame_rating, 
+who the home team is, who the opponent is, if the game is a playoff game, and if overtime is probable. 
+
+The data will be scaled given the order of magnitude difference between home and away team ratings and other variables.
+Character variables for home and away teams will be recoded using dummy or one hot encoding.
+
+Our strategy will be split the data randomly between train and test to ensure we do overfit the mddel.
+
+Finally, additional predictive features to explore (time permitting) will be moving averages and lag variables for goals per game and prior game goals scored.
