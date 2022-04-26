@@ -13,31 +13,31 @@ A future consideration will be excluding the 2021 season due to the COVID-19 pan
 ![](./IMAGES/CorrHeatMap.png)
 
 ### Here is a distribution of our proposed target variable: home_team_score
-![](./HomeTeamScoreHistogram.png)
+![](./IMAGES/HomeTeamScoreHistogram.png)
 
 We see home_team_score seems to follow a normal distribution which satisfies a requrirement for regression and suggests no transformation is needed.
 
 ### Home team score varies by team from 2016-2021 
-![](./HomeTeamScoreVariabilityByTeam.png)
+![](./IMAGES/HomeTeamScoreVariabilityByTeam.png)
 
 The vertical bar chart illustrates variability in the goals per game scored by team.
 
 ### The correlation heat map shows some correlation between home_team_pregame_rating and the home_team_score but let's look closer...
 If we look at the mean home_team_pregame_rating with the mean home_team_score in the data we see a clear direct linear relationship
 
-![](./AggTeamRatingbyYearMeanGoalsPerGame.png)
+![](./IMAGES/AggTeamRatingbyYearMeanGoalsPerGame.png)
 
 We also note a simple non-aggregated view of away team pre game rating is indirectly related with home team score.
 
-![](./CorrPlotAwayRatingHomeGoals.png)
+![](./IMAGES/CorrPlotAwayRatingHomeGoals.png)
 
 ### Home team score also seems to decrease slightly as the probability of Overtime increases
 
-![](./CorrPlotOverTimePrHomeGoals.png)
+![](./IMAGES/CorrPlotOverTimePrHomeGoals.png)
 
 ### Home team score also seems to decrease slightly during a playoff game
 
-![](./CorrPlotPlayoffGameHomeGoals.png)
+![](./IMAGES/CorrPlotPlayoffGameHomeGoals.png)
 
 ### Prediction strategy
 Based on the initial analysis we can see from the histogram of home_team_score that the target variable (home_team_score) appears to be normally distributed.
