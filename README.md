@@ -4,7 +4,7 @@ Final project for CMSCI 4200
 This is the final project for CMPSCI4200.  
 
 ## Data Discussion
-[The data being used for this project comes](https://github.com/fivethirtyeight/data/tree/master/nhl-forecasts)
+[The data being used for this project comes from here](https://github.com/fivethirtyeight/data/tree/master/nhl-forecasts)
 
 In order to draw reasonable conclusions from the data, some assumptions need to be made.
 First, the data needs to be restricted to complete seasons with each current team equally represented.
