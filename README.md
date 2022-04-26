@@ -14,3 +14,8 @@ A future consideration will be excluding the 2021 season due to the COVID-19 pan
 ## Now let's look at a correlation heat map to see the overall correlation between variables in the dataset.
 ![](./CorrHeatMap.png)
 
+### The correlation heat map shows some correlation between home_team_pregame_rating and the home_team_score but let's look closer...
+If we look at the mean home_team_pregame_rating with the mean home_team_score in the data we see a clear direct linear relationship
+
+![](./AggTeamRatingbyYearMeanGoalsPerGame.png)
+
