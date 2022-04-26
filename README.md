@@ -2,7 +2,7 @@
 This is the final project for CMPSCI4200.  
 
 ## Data Discussion
-# Here is the link to the Data
+### Here is the link to the Data
 [The data being used for this project comes from fivethirtyeight.com](https://github.com/fivethirtyeight/data/tree/master/nhl-forecasts)
 
 In order to draw reasonable conclusions from the data, some assumptions need to be made.
