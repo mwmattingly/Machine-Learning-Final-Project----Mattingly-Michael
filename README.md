@@ -19,3 +19,5 @@ If we look at the mean home_team_pregame_rating with the mean home_team_score in
 
 ![](./AggTeamRatingbyYearMeanGoalsPerGame.png)
 
+We also not a simple non-aggregated view of away team pre game rating is indirectly related with home team score.
+![](./CorrPlotAwayRatingHomeGoals.png)
