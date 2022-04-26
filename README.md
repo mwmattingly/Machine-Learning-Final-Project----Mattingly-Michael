@@ -1,6 +1,4 @@
 # Machine-Learning-Final-Project----Mattingly-Michael
-Final project for CMSCI 4200
-
 This is the final project for CMPSCI4200.  
 
 ## Data Discussion
