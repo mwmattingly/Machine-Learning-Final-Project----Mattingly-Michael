@@ -33,3 +33,6 @@ We also note a simple non-aggregated view of away team pre game rating is indire
 
 ![](./CorrPlotAwayRatingHomeGoals.png)
 
+### Home team score also seems to decrease slightly during a playoff game
+
+![](./CorrPlotOverTimePrHomeGoals.png)
