@@ -19,6 +19,11 @@ A future consideration will be excluding the 2021 season due to the COVID-19 pan
 
 We see home_team_score seems to follow a normal distribution which satisfies a requrirement for regression and suggests no transformation is needed.
 
+### Home team score varies by team from 2016-2021 
+![](./HomeTeamScoreVariabilityByTeam.png)
+
+The vertical bar chart illustrates variability in the goals per game scored by team.
+
 ### The correlation heat map shows some correlation between home_team_pregame_rating and the home_team_score but let's look closer...
 If we look at the mean home_team_pregame_rating with the mean home_team_score in the data we see a clear direct linear relationship
 
