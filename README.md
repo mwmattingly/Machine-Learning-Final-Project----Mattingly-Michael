@@ -53,3 +53,49 @@ Character variables for home and away teams will be recoded using dummy or one h
 Our strategy will be split the data randomly between train and test to ensure we do overfit the mddel.
 
 Finally, additional predictive features to explore (time permitting) will be moving averages and lag variables for goals per game and prior game goals scored.
+
+# Part 2 Regression Problem
+
+## 1 Distribution of terget values
+
+## The target variable is home_team_score or goals scored by the home team for a given game
+## The target is normally distributed, has a mean of X and is range-bounded between Y and Z.
+
+## 2 There are no NA or missing values
+
+## 3 Decided to keep overtime and team abbreviation 
+
+## 4 Using dummy coding since the values are ordinal not hierarchical
+
+## 5 Aggregation columns
+
+## 6 Kept overtime and team abbreviation due to...
+
+## 7 Split into x_data and y_data
+
+## 8 Used scaling normalization...
+
+## 9 Used a 90/10 split (90% train, 10% test)
+
+## 2 Training
+
+## 1 Using regression, import linear and logistic regression
+
+## 2 Fit/train models
+
+## 3 Post Model Analysis
+
+## 1 Use model.score on test to get idea of accuracy
+
+## 2 Here is a comparison of accuracy between models
+
+## 3 Change the split between test and train to 80/20, 70/30, 60/40, 50/50,...
+
+## 4 Use residuals library to plot residuals
+
+## 5 Classification 
+
+## 6 Which model is better 
+
+
+
