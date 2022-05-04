@@ -109,7 +109,7 @@ The accuracy of the linear regression model was tested at various levels of spli
 ![](./IMAGES/accuracyplot2.JPG)
 
 ## Residuals library to plot residuals
-![](./IMAGES/ResidualPlot.JPG)
+![](./IMAGES/ResidualPlot.png)
 
 ## Conclusion
 The linear regression with 30% Test provided the highest accuracy at 85%. The SGG regressor achieved an accuracy of 73%
@@ -119,6 +119,7 @@ Based on accuracy in the test sample, we would recommend linear regression to pr
 
 However, 85% accuracy on a mean of 3.02 goals per game translates to about 1/2 a goal error per game.  
 Depending on acceptance for risk, we would not reccomend using this model for wagering.
+Perhaps with additional data, the accuracy might be improved to accceptable limit.
 
 
 
