@@ -84,13 +84,14 @@ The variables were set up with a 1 game shift so the most recent 3 prior games w
 
 ![](./IMAGES/AggColumns.JPG)
 
-## 7 Since we want to run scenarios with different train and test splits and different models
-## A function was defined to promote code efficiency to run the code with varying these paramters
-## The function thats take 2 paramters
-##  1 for test_size to split between test and train 
-##  1 for regression model algorithm
-##  Implements a Standard Scaler
-##  Returns the model accuracy for the given split and model"
+## Function for spliting and testing different models
+Since we want to run scenarios with different train and test splits and different models, a function was defined to promote code efficiency to run the code with varying these paramters.
+The function thats take 2 paramters:
+1 for test_size to split between test and train 
+1 for regression model algorithm
+And implements a Standard Scaler
+The function returns the model accuracy for the given split and model
+![](./IMAGES/ModelBuilderFunction.JPG)
 
 ## 2 Training
 
