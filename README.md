@@ -80,7 +80,7 @@ Three aggregation columns were created.
 3 game home team pre-game rating
 3 game over-time count
 
-The variables were set up with a 1 game shift so the most recent 3 prior games would be an input to the current game. Missing values were mean filled.
+The variables were set up with a 1 game shift (lag) so the most recent 3 prior games would be an input to the game being predicted. Missing values were mean filled.
 
 ![](./IMAGES/AggColumns.JPG)
 
