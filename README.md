@@ -93,25 +93,32 @@ And implements a Standard Scaler
 The function returns the model accuracy for the given split and model
 ![](./IMAGES/ModelBuilderFunction.JPG)
 
-## 2 Training
+## Model Training
+Since regression was the approach, we used regression and SGDRegressor.
+![](./IMAGES/RegAccuracy.JPG)
+![](./IMAGES/SGDRaccuracy.JPG)
 
-## 1 Using regression and SGDRegressor
+## Post Model Analysis
+The model performance was evaluated using model.score on test samples to get idea of accuracy.
+As the print out shows the linear regression model had the highest accuracy with 30% test.
+![](./IMAGES/AccuracyComparison.JPG)
 
-## 2 Fit/train models
+The accuracy of the linear regression model was tested at various levels of splits.
+70% train/30% test yielded the highest accuracy.
 
-## 3 Post Model Analysis
+![](./IMAGES/accuracyplot2.JPG)
 
-## 1 Use model.score on test to get idea of accuracy
+## Residuals library to plot residuals
+![](./IMAGES/ResidualPlot.JPG)
 
-## 2 Here is a comparison of accuracy between models
+## Conclusion
+The linear regression with 30% Test provided the highest accuracy at 85%. The SGG regressor achieved an accuracy of 73%
 
-## 3 Change the split between test and train to 80/20, 70/30, 60/40, 50/50,...
+In this case using linear regression outperformed SGD regressor in the test data.
+Based on accuracy in the test sample, we would recommend linear regression to predict home team score.
 
-## 4 Use residuals library to plot residuals
-
-## 5 Classification 
-
-## 6 Which model is better 
+However, 85% accuracy on a mean of 3.02 goals per game translates to about 1/2 a goal error per game.  
+Depending on acceptance for risk, we would not reccomend using this model for wagering.
 
 
 
