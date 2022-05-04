@@ -66,16 +66,23 @@ Finally, additional predictive features to explore (time permitting) will be mov
 ## 2 Here we use isnull().any on our dataframe, and there are no NA or missing values.
 ![](./IMAGES/NoNAValues.JPG)
 
-## 3 Initiallly we decided to keep overtime and team abbreviation and dummy codesince the values are ordinal not hierarchical
-## These variables showed correlation with the target variable and varied by home and away team 
-## Ultimately dropped home and away team abbreviation due to multicolinearity with home and away pregame rating
-## Kept ot (Overtime indicator), dummy coded, and cacluated lag count of ot games in last 3 games 
-## The rationale behind this is consecutive over time games take up a lot of energy and can reduce effort and 
-##  lead to lower scoring games 
+## 3 Initiallly we decided to keep overtime and team abbreviation and dummy coded since the values are ordinal not hierarchical.
+These variables showed correlation with the target variable and varied by home and away team.
+Ultimately, we dropped home and away team abbreviation due to multicolinearity (see Inf VIF below) with home and away pregame rating
+Kept ot (Overtime indicator), dummy coded, and cacluated lag count of ot games in last 3 games 
+The rationale behind this is consecutive over time games take up a lot of energy and can reduce effort and lead to lower scoring games 
 ![](./IMAGES/HiVIF.JPG)
 
 ## Aggregation Columns
+Three aggregation columns were created.
+3 game moving average of home goals scored.
+3 game standard deviation of home goals scored.
+3 game home team pre-game rating
+3 game over-time count
 
+The variables were set up with a 1 game shift so the most recent 3 prior games would be an input to the current game. Missing values were mean filled.
+
+![](./IMAGES/AggColumns.JPG)
 
 ## 7 Since we want to run scenarios with different train and test splits and different models
 ## A function was defined to promote code efficiency to run the code with varying these paramters
