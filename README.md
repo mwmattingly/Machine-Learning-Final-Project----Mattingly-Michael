@@ -98,8 +98,10 @@ Given the nature of the assignment to test various scenarios of test/train split
 
 ## Model Training
 Since regression was the approach, we used regression and SGDRegressor.
-![](./IMAGES/RegAccuracy.JPG)
-![](./IMAGES/SGDRaccuracy.JPG)
+
+Regression accuracy: ![](./IMAGES/RegAccuracy.JPG)
+
+SGD Regressor accuracy: ![](./IMAGES/SGDRaccuracy.JPG)
 
 ## Post Model Analysis
 The model performance was evaluated using model.score on test samples to get idea of accuracy.
