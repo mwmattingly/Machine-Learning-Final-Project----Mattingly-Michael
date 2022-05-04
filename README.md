@@ -87,10 +87,11 @@ The variables were set up with a 1 game shift (lag) so the most recent 3 prior g
 ## Function and Pipeline for spliting and testing different models
 Since we want to run scenarios with different train and test splits and different models, a function was defined to promote code efficiency to run the code with varying these paramters.
 The function thats take 2 paramters:
-1 for test_size to split between test and train 
-1 for regression model algorithm
+   1 for test_size to split between test and train 
+   1 for regression model algorithm
 And implements a Standard Scaler
-The function returns the model accuracy for the given split and model
+And returns the model accuracy for the given split and model parameters.
+
 ![](./IMAGES/ModelBuilderFunction.JPG)
 
 Given the nature of the assignment to test various scenarios of test/train split and models, the sci-kit learn Pipeline object was used to promote reproducibility, repeatable, and easy to follow the workflow. While not discussede in class this reflects research done to support the requirements of the project.
