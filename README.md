@@ -57,11 +57,12 @@ Finally, additional predictive features to explore (time permitting) will be mov
 # Part 2 Regression Problem
 
 ## 1 Distribution of terget values
+### Here is a distribution the target variable: home_team_score (goals scored by the home team)
+![](./IMAGES/HomeTeamScoreHistogram.png)
 
-## The target variable is home_team_score or goals scored by the home team for a given game
-## The target is normally distributed, has a mean of X and is range-bounded between Y and Z.
+## home_team_score is normally distributed, with a mean of 3.02 goals/game and is range-bounded between 0 and 10.
 
-## 2 There are no NA or missing values
+## 2 Here we use isnull().any on our dataframe, and there are no NA or missing values
 
 ## 3 Decided to keep overtime and team abbreviation 
 
@@ -69,17 +70,23 @@ Finally, additional predictive features to explore (time permitting) will be mov
 
 ## 5 Aggregation columns
 
-## 6 Kept overtime and team abbreviation due to...
+## 6 Initiallly we kept overtime and team abbreviation.
+## Since the target variable varied by home and away team 
+## Ultimately dropped home and away team abbreviation due to multicolinearity with home and away pregame rating
+## Kept ot (Overtime indicator), dummy coded, and cacluated lag count of ot games in last 3 games 
+## The rationale behind this is consecutive over time games take up a lot of energy and can reduce effort and lead to lower scoring games 
 
-## 7 Split into x_data and y_data
-
-## 8 Used scaling normalization...
-
-## 9 Used a 90/10 split (90% train, 10% test)
+## 7 Since we want to run scenarios with different train and test splits and different models
+## A function was defined to promote code efficiency to run the code with varying these paramters
+## The function thats take 2 paramters
+##  1 for test_size to split between test and train 
+##  1 for regression model algorithm
+##  Implements a Standard Scaler
+##  Returns the model accuracy for the given split and model"
 
 ## 2 Training
 
-## 1 Using regression, import linear and logistic regression
+## 1 Using regression and SGDRegressor
 
 ## 2 Fit/train models
 
