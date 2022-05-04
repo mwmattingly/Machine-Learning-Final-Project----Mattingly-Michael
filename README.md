@@ -64,7 +64,7 @@ Finally, additional predictive features to explore (time permitting) will be mov
 ![](./IMAGES/TargetDescribe.png)
 
 ## 2 Here we use isnull().any on our dataframe, and there are no NA or missing values.
-![](./IMAGES/NoNAValues.png)
+![](./IMAGES/NoNAValues.JPG)
 
 ## 3 Decided to keep overtime and team abbreviation and dummy codesince the values are ordinal not hierarchical
 ## Initiallly we kept overtime and team abbreviation.
