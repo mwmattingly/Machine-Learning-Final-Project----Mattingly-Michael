@@ -109,6 +109,7 @@ The accuracy of the linear regression model was tested at various levels of spli
 ![](./IMAGES/accuracyplot2.JPG)
 
 ## Residuals library to plot residuals
+The plot of residuals shows the error is evenly distributed across goals scored with increasing variance above 3 goals.
 ![](./IMAGES/ResidualPlot.png)
 
 ## Conclusion
