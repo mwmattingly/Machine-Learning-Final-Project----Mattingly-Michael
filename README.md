@@ -60,10 +60,10 @@ Finally, additional predictive features to explore (time permitting) will be mov
 ### Here is a distribution the target variable: home_team_score (goals scored by the home team)
 ![](./IMAGES/HomeTeamScoreHistogram.png)
 
-## home_team_score is normally distributed, with a mean of 3.02 goals/game and is range-bounded between 0 and 10.
+The target variable (home_team_score) is normally distributed, with a mean of 3.02 goals/game and is range-bounded between 0 and 10.
 ![](./IMAGES/TargetDescribe.png)
 
-## 2 Here we use isnull().any on our dataframe, and there are no NA or missing values.
+## 2 Here we use isnull().any on our dataframe, and note there are no NA or missing values.
 ![](./IMAGES/NoNAValues.JPG)
 
 ## 3 Initiallly we decided to keep overtime and team abbreviation and dummy coded since the values are ordinal not hierarchical.
