@@ -61,20 +61,23 @@ Finally, additional predictive features to explore (time permitting) will be mov
 ![](./IMAGES/HomeTeamScoreHistogram.png)
 
 ## home_team_score is normally distributed, with a mean of 3.02 goals/game and is range-bounded between 0 and 10.
+![](./IMAGES/TargetDescribe.png)
 
-## 2 Here we use isnull().any on our dataframe, and there are no NA or missing values
+## 2 Here we use isnull().any on our dataframe, and there are no NA or missing values.
+![](./IMAGES/NoNAValues.png)
 
-## 3 Decided to keep overtime and team abbreviation 
-
-## 4 Using dummy coding since the values are ordinal not hierarchical
-
-## 5 Aggregation columns
-
-## 6 Initiallly we kept overtime and team abbreviation.
+## 3 Decided to keep overtime and team abbreviation and dummy codesince the values are ordinal not hierarchical
+## Initiallly we kept overtime and team abbreviation.
 ## Since the target variable varied by home and away team 
 ## Ultimately dropped home and away team abbreviation due to multicolinearity with home and away pregame rating
 ## Kept ot (Overtime indicator), dummy coded, and cacluated lag count of ot games in last 3 games 
-## The rationale behind this is consecutive over time games take up a lot of energy and can reduce effort and lead to lower scoring games 
+## The rationale behind this is consecutive over time games take up a lot of energy and can reduce effort and 
+##  lead to lower scoring games 
+
+![](./IMAGES/HiVIF.png)
+
+## Aggregation Columns
+
 
 ## 7 Since we want to run scenarios with different train and test splits and different models
 ## A function was defined to promote code efficiency to run the code with varying these paramters
