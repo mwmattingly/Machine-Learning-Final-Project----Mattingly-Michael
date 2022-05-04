@@ -94,7 +94,7 @@ And returns the model accuracy for the given split and model parameters.
 
 ![](./IMAGES/ModelBuilderFunction.JPG)
 
-Given the nature of the assignment to test various scenarios of test/train split and models, the sci-kit learn Pipeline object was used to promote reproducibility, repeatable, and easy to follow the workflow. While not discussede in class this reflects research done to support the requirements of the project.
+Given the nature of the assignment to test various scenarios of test/train split and models, the sci-kit learn Pipeline object was used to ensure results were reproducible, repeatabale, and that the workflow was easy to follow. While not discussede in class this reflects research done to support the requirements of the project.
 
 ## Model Training
 Since regression was the approach, we used regression and SGDRegressor.
