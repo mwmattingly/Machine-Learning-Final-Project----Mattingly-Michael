@@ -124,7 +124,7 @@ This means we have not overfit the model to the training sample and should expec
 
 ## Conclusion
 As note, the linear regression with 30% Test split provided the highest accuracy at 85%. 
-The SGG regressor achieved an accuracy of 73%.
+The SGD regressor achieved an accuracy of 73%.
 In this case using linear regression outperformed SGD regressor in the test data.
 Based on accuracy in the test sample, we would recommend linear regression to predict home team score.
 
@@ -135,7 +135,7 @@ That said, we have an OK model as defined by the accuracy and consistent pattern
 
 Puting these results in context, 85% accuracy on a mean of 3.02 goals per game translates to about 0.5 goal per game error.  
 Depending on tolerance for risk, we would not reccomend using this model for wagering or fantasy sports.
-Perhaps with additional data including lineups, injuries, and officials, and penalties the accuracy could be improved to an accceptable limit.
+Perhaps with additional data on injuries, officials, and penalties the accuracy could be improved to an accceptable limit.
 
 
 
