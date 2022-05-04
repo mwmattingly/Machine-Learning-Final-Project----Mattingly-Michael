@@ -104,8 +104,9 @@ Regression accuracy: ![](./IMAGES/RegAccuracy.JPG)
 SGD Regressor accuracy: ![](./IMAGES/SGDRaccuracy.JPG)
 
 ## Post Model Analysis
-The model performance was evaluated using model.score on test samples to get idea of accuracy.
-As the print out shows the linear regression model had the highest accuracy with 30% test.
+The model performance was evaluated using model.score on test samples.
+As the screenshot shows the linear regression model had the highest accuracy with 30% test.
+
 ![](./IMAGES/AccuracyComparison.JPG)
 
 The accuracy of the linear regression model was tested at various levels of splits.
@@ -124,8 +125,8 @@ In this case using linear regression outperformed SGD regressor in the test data
 Based on accuracy in the test sample, we would recommend linear regression to predict home team score.
 
 However, 85% accuracy on a mean of 3.02 goals per game translates to about 1/2 a goal error per game.  
-Depending on acceptance for risk, we would not reccomend using this model for wagering.
-Perhaps with additional data, the accuracy might be improved to accceptable limit.
+Depending on acceptance for risk, we would not reccomend using this model for wagering or fantasy sports.
+Perhaps with additional data, including lineups, and injuries the accuracy could be improved to an accceptable limit.
 
 
 
