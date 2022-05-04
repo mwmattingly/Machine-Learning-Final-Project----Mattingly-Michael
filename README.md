@@ -115,18 +115,27 @@ The accuracy of the linear regression model was tested at various levels of spli
 ![](./IMAGES/accuracyplot2.JPG)
 
 ## Residuals library to plot residuals
-The plot of residuals shows the error is evenly distributed across goals scored with increasing variance above 3 goals.
+The plot of residuals shows the error is evenly distributed across goals scored with some increasing variance above 3 goals.
+
+We see the pattern of error is consistent between both training (blue) and test (green) samples.
+This means we have not overfit the model to the training sample and should expect about 85% accuracy in data the model has not seen.
+
 ![](./IMAGES/ResidualPlot.png)
 
 ## Conclusion
-The linear regression with 30% Test provided the highest accuracy at 85%. The SGG regressor achieved an accuracy of 73%
-
+As note, the linear regression with 30% Test split provided the highest accuracy at 85%. 
+The SGG regressor achieved an accuracy of 73%.
 In this case using linear regression outperformed SGD regressor in the test data.
 Based on accuracy in the test sample, we would recommend linear regression to predict home team score.
 
-However, 85% accuracy on a mean of 3.02 goals per game translates to about 1/2 a goal error per game.  
-Depending on acceptance for risk, we would not reccomend using this model for wagering or fantasy sports.
-Perhaps with additional data, including lineups, and injuries the accuracy could be improved to an accceptable limit.
+Upon reflection, goals scored are not neccesarily continous.  You either score 0, 1, 2,... goals.  
+With this in mind perhaps classification should have been considered and explored.   
+
+That said, we have an OK model as defined by the accuracy and consistent pattern of error in training and test samples. 
+
+Puting these results in context, 85% accuracy on a mean of 3.02 goals per game translates to about 0.5 goal per game error.  
+Depending on tolerance for risk, we would not reccomend using this model for wagering or fantasy sports.
+Perhaps with additional data including lineups, injuries, and officials, and penalties the accuracy could be improved to an accceptable limit.
 
 
 
