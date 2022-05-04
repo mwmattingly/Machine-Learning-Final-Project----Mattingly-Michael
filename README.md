@@ -66,15 +66,13 @@ Finally, additional predictive features to explore (time permitting) will be mov
 ## 2 Here we use isnull().any on our dataframe, and there are no NA or missing values.
 ![](./IMAGES/NoNAValues.JPG)
 
-## 3 Decided to keep overtime and team abbreviation and dummy codesince the values are ordinal not hierarchical
-## Initiallly we kept overtime and team abbreviation.
-## Since the target variable varied by home and away team 
+## 3 Initiallly we decided to keep overtime and team abbreviation and dummy codesince the values are ordinal not hierarchical
+## These variables showed correlation with the target variable and varied by home and away team 
 ## Ultimately dropped home and away team abbreviation due to multicolinearity with home and away pregame rating
 ## Kept ot (Overtime indicator), dummy coded, and cacluated lag count of ot games in last 3 games 
 ## The rationale behind this is consecutive over time games take up a lot of energy and can reduce effort and 
 ##  lead to lower scoring games 
-
-![](./IMAGES/HiVIF.png)
+![](./IMAGES/HiVIF.JPG)
 
 ## Aggregation Columns
 
