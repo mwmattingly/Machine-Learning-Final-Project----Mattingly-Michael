@@ -134,6 +134,7 @@ With this in mind perhaps classification should have been considered and explore
 That said, we have an OK model as defined by the accuracy and consistent pattern of error in training and test samples. 
 
 Puting these results in context, 85% accuracy on a mean of 3.02 goals per game translates to about 0.5 goal per game error.  
+
 Depending on tolerance for risk, we would not reccomend using this model for wagering or fantasy sports.
 Perhaps with additional data on injuries, officials, and penalties the accuracy could be improved to an accceptable limit.
 
